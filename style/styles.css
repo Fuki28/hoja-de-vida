@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5px;
+}
+
+/* SECCION IZQUIERDA */
+.izquierda {
+    background-color: #1f2937;
+    width: 25%;
+    border: solid 1px;
+    color: #f3f4f6;
+}
+
+.contenido-izq {
+    margin: 10px;
+}
+
+.imagen {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px;
+    margin: 10%;
+    width: 60%;
+    height: 20%;
+    
+    
+}
+
+hr {
+    margin: 20px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+/* SECCION DERECHA */
+.derecha {
+    background-color: #f3f4f6;
+    width: 65%;
+    border: solid 1px;
+    padding: 10px;
+}
